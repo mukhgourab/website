@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet"> 
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Oswald|Ovo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Jockey+One|Ramabhadra|Rammetto+One|Ruda|Sigmar+One" rel="stylesheet">
+
+
+ 
+<style>
+ *{margin:0;
+   padding:0;
+   }
+
+ .container{
+ width:1200px;auto;
+ background:green;
+ }
+ 
+ @viewport{
+ zoom:1.0;
+ width:extend-to-zoom;
+ }
+ .header{ min-height:90px; background:white; width:100%; position:relative;} 
+ .talkt{position:absolute;top:25px;left:10px;}
+ .logo{float:left;}
+ 
+ .logoa{float:left;} 
+ .logob{float:left;} 
+ .logoc{float:left;}
+ #social{position:absolute;top:60px; right:50px; height:0px; height:00px;}
+ .banner{height:438px;position:relative;width:100%;}
+  h1{position:absolute;top:-300px;left:360px; opacity:; color:#ffffff ;font-family: 'Ruda', sans-serif; font-size:41px;}
+form{position:absolute;top:300px;left:360px;}
+
+
+ 
+ .menu {min-height:38px; background: #F53D00; width:100%;opacity:}
+ .menu ul {list-style:none; padding:0; margin:0; text-align:center; width:1092px; margin:0 auto; opacity:0.;}
+ .menu ul li {float:left; position:relative; width:180px;border-right: 1px solid #D8D8D8 ; }
+ .menu ul li a {padding:10px;text-decoration:none;display:block; color: #FFFFFF;op:; font-size:15px;font-family:'Francois One',sans-serif;font-weight: bold;}
+ .menu ul li a:hover{color:#e6f2ff;font-weight:bold;}
+ .menu ul li:last-child {border-right: none;}
+     
+
+ .menu ul li ul{ position:absolute; left:-9999px;opacity:0.8;}
+ .menu ul li:hover ul{left:0px;}
+ .menu ul li ul li {background: #FC6300;float:none;-moz-transition: all .1s linear 0s; border-bottom: 1px solid #FFFFFF;-webkit-transition:all .1s linear 0s;border-right: none;}
+ .menu ul li ul li a:hover {color:;background:#002E66;font-weight: bold;}
+ .menu ul li ul li:hover{width:184px;}
+ .menu ul li ul li:last-child{border-bottom: none;}
+ header.sticky{
+ position:fixed;
+ width:100%;
+ background:green;
+ text-align:left; 
+}
+ 
+ 
+ .content{height:500px;text-align:center;position:relative;width:100%;}
+ .left {width:400px;height:500px;background:white;float:left;position:relative;}
+ 
+ 
+ 
+ .middle {width:400px;height:500px;background:white; float:left; position:relative;}
+ .right {width:400px;height:500px;background:white;float:left;text-align:center;position:relative;}
+ h2{position:absolute;top:130px;left:5px; opacity:.8; color:black; font-family:'Frank Ruhl Libre', sans-serif; font-size:39px;
+}
+p{position:absolute;top:270px;left:5px; opacity:.8; color:#030A6E; font-family:'Frank Ruhl Libre', sans-serif;
+}
+.right h2{left:2px;}
+ .middle h3{position:absolute;top:40px;left:100px;font-family: 'Passion One', cursive;font-size:25px;}
+ 
+ .footer{height:px;background:white;}
+ 
+  p{padding:15px;}
+   
+   blink{
+   -webkit-animation: blink 0.92s linear infinite;
+   -moz-animation:blink 0.92s linear infinite;
+   animation:blink 0.92s linear infinite;
+   }
+   
+    @-webkit-keyframes blink{
+  0% {opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+  }
+   
+   @-moz-keyframes blink{
+  0% {opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+  }
+  
+  @keyframes blink{
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+  }
+ #search{
+ width:400px;
+ padding:12px;
+ border:1px solid #333;
+ font-size:15px;
+ }
+ 
+ #submit{
+ padding:12px;
+ background:#003366;
+ border:1px solid #333;
+ margin-left:-5px;
+ color:white;
+ cursor:pointer;
+ font-size:15px;}
+ 
+ #submit:hover{
+ background:#364949;
+ font-size:18px;
+ transition:all .1s linear 0.1s;
+ }
+
+.box
+{width:250px;
+min-height:50px;
+background:#FF7000;
+position:absolute;
+left:475px;
+top:390px;
+color:white;
+text-align:center;
+line-height:50px;
+border-radius:10px;
+cursor:pointer;
+box-shadow:0 0 2px rgba(0,0,0,.5);
+1px 1px 5px rgba(0,0,0,.3);
+-moz-transition: all .1s linear .1s;
+-webkit-transition: all .1s linear .1s;
+font-family:'Frank Ruhl Libre', sans-serif;
+ }
+
+
+.box:hover{
+background:white;
+color:#FF7000;
+}
+
+.section{
+height:120px;
+width:100%;
+background:#070000;}
+
+.left1{
+height:120px;
+width:300px;
+background:#002E66;
+float:left;
+position:relative;
+}
+
+.middle11{
+height:120px;
+width:300px;
+background:#002E66;
+float:left;
+position:relative;}
+
+
+.middle12{
+height:120px;
+width:300px;
+background:#002E66;
+float:left;
+position:relative;}
+
+.right1{
+height:120px;
+width:300px;
+background:#002E66;
+float:left;
+position:relative;
+}
+.left1 h2{color:#C2F2F7;
+position:absolute;left:75px;top:35px;font-family:'Frank Ruhl Libre', sans-serif;font-size:20px;}
+
+.middle11 h2{color:#C2F2F7;
+position:absolute;left:70px;top:35px;font-family:'Frank Ruhl Libre', sans-serif;font-size:20px;}
+
+.middle12 h2{color:#C2F2F7;
+position:absolute;left:120px;top:35px;font-family:'Frank Ruhl Libre', sans-serif;font-size:20px;
+}
+
+.right1 h2{color:#C2F2F7;
+position:absolute;left:70px;top:35px;font-family:'Frank Ruhl Libre', sans-serif;font-size:20px;}
+
+.section{
+position:relative;
+}
+.box1{width:174px;
+height:50px;
+background:#FF7000;
+opacity:0.;
+border-radius:10px;
+cursor:pointer;
+position:absolute;
+left:510px;
+top:35px;
+bottom:px;
+-moz-transition: all .1s linear .1s;
+-webkit-transition: all .1s linear .1s;
+}
+
+.box1 h2{
+position:absolute;top:14px;
+font-size:20px;
+left:46px;
+}
+
+.box1:hover{
+background:white;
+color:#FF7000;
+}
+.box1 h2:hover{
+color:#FF7000;
+}
+.section1{
+height:75px;
+background:white;
+position:relative;
+width:100%;
+}
+
+.section1 h2{
+position:absolute;top:25px;
+left:15px;
+font-size:25px;
+}
+
+.section2{
+height:150px;
+background:white;
+position:relative;
+width:100%;
+}
+
+.first{
+height:148px;
+width:296px;
+background:green;
+position:absolute;
+left:2px;
+top:1px;
+float:left;
+}
+
+.second{
+height:148px;
+width:296px;
+background:yellow;
+float:left;
+position:absolute;
+top:1px;
+left:302px;}
+
+.third{
+height:148px;
+width:296px;
+background:blue;
+float:left;
+position:absolute;
+left:602px;
+top:1px;}
+
+.fourth{
+height:148px;
+width:296px;
+background:orange;
+float:left;
+position:absolute;
+left:902px;
+top:1px;}
+
+.box2{
+width:296px;
+height:60px;
+background:#002E66;
+opacity:0.8;
+border-radius:10px;
+cursor:pointer;
+position:absolute;
+border-style: solid;
+border-width:1px;
+border-color:white;
+top:45px;
+}
+
+.box3{
+width:296px;
+height:60px;
+background:#002E66;
+opacity:0.84;
+border-radius:10px;
+cursor:pointer;
+position:absolute;
+border-style:solid;
+border-width:1px;
+border-color:white;
+top:45px;
+}
+
+.box4{
+width:296px;
+height:60px;
+background:#002E66;
+opacity:0.85;
+border-radius:10px;
+cursor:pointer;
+position:absolute;
+border-style: solid;
+border-width:1px;
+border-color:white;
+top:45px;
+}
+.box5{
+width:296px;
+height:60px;
+background:#002E66;
+opacity:0.85;
+border-radius:10px;
+cursor:pointer;
+position:absolute;
+border-style: solid;
+border-width:1px;
+border-color:white;
+top:45px;
+}
+.box2 h5{
+position:absolute;
+top:18px;
+left:43px;
+color:#FFFFFF;
+font-size:18px;
+font-family:'Francois One',sans-serif;
+}
+
+.box3 h5{
+position:absolute;
+top:18px;
+left:43px;
+color:#FFFFFF;
+font-size:18px;
+font-family:'Francois One',sans-serif;
+}
+
+.box4 h5{
+position:absolute;
+top:18px;
+left:43px;
+color:#FFFFFF;
+font-size:18px;
+font-family:'Francois One',sans-serif;
+}
+
+.box5 h5{
+position:absolute;
+top:18px;
+left:43px;
+color:#FFFFFF;
+font-size:18px;
+font-family:'Francois One',sans-serif;
+}
+
+.section4{
+height:75px;
+background:white;
+position:relative;
+width:100%;
+}
+.section4 h2{
+position:absolute;top:25px;
+left:15px;
+font-size:25px;
+}
+
+.section5 {
+height:400px;
+}
+
+
+.leftln{
+ height:2px;
+ width:375px;
+ position:absolute;
+ left:50px;
+ top:60px;
+ }
+ 
+ .rightln{
+  height:2px;
+ width:370px;
+ position:absolute;
+ right:50px;
+ top:60px;
+ }
+ 
+ .leftln1{
+ height:280px;
+ width:0.5px;
+ position:absolute;
+ left:397px;
+ top:110px;
+ }
+ 
+
+  .rightln1{
+ height:280px;
+ width:0.5px;
+ position:absolute;
+ right:397px;
+ top:110px;
+ }
+ .section6{
+min-height:430px;
+background:white;
+position:relative;
+width:100%;
+}
+
+.well2{
+height:298px;
+width:296px;background:#F53D00;
+float:left;
+position:absolute;
+top:60px;
+left:52px;
+position:
+}
+.well3{
+height:298px;
+width:296px;background:#F53D00;
+float:left;
+position:absolute;
+top:60px;
+left:452px;
+position:
+}
+.well4{
+height:298px;
+width:296px;background:#F53D00;
+float:left;
+position:absolute;
+top:60px;
+left:852px;
+}
+
+.video1{
+position:absolute;
+top:12px;
+left:14px;
+}
+
+.video2{
+position:absolute;
+top:12px;
+left:14px;
+}
+
+.video3{
+position:absolute;
+top:12px;
+left:14px;
+}
+.section6 h2{
+position:absolute;
+top:15px;
+left:15px;
+font-size:20px;
+}
+
+.section7{
+min-height:375px;
+background:#D8D8D8;
+position:relative;
+width:100%;
+}
+
+.well5{
+min-height:270px;
+width:750px;background:white;
+float:left;
+position:absolute;
+top:75px;
+left:50px;
+}
+
+.ex1 ul{
+list-style:none;
+column-count:2;
+}
+
+.well6{
+height:270px;
+width:330px;background:white;
+float:left;
+position:absolute;
+top:75px;
+left:820px;
+}
+.ex1{
+padding-top:62px;
+padding-left:65px;}
+
+.ex1 ul{
+list-style:none;
+column-count:2;
+}
+
+
+.ex1 ul li a{
+text-decoration:none;
+padding:2px;
+font-size:17px;
+display:block;
+color:#002E75;
+font-family:'Frank Ruhl Libre', sans-serif;
+ font-weight: bold;
+}
+
+.ex1 ul li a:hover{
+color:#686868;
+}
+
+.ex2{
+padding-top:50px;
+padding-left:15px;
+}
+
+.ex2 ul{
+list-style:none;}
+
+.ex2 ul li a{
+text-decoration:none;
+padding:px;
+font-size:14px;
+color:#002E75;
+font-family:'Frank Ruhl Libre', sans-serif;
+ font-weight: bold;
+}
+
+.ex2 ul li a:hover{
+color:#686868;
+}
+
+.section7 h2{
+position:absolute;
+top:25px;
+left:15px;
+font-size:20px;
+font-family:'Frank Ruhl Libre', sans-serif;
+}
+
+.section7 h3{
+position:absolute;
+top:20px;
+left:780px;
+font-size:20px;
+font-family:'Frank Ruhl Libre', sans-serif;
+opacity:.8;
+}
+
+.footer{
+height:400px;
+width:100%;
+background:#002E66;
+position:relative;
+}
+
+ .ex3{
+padding-top:65px;
+padding-left:65px;}
+
+.ex3 ul{
+list-style:none;
+column-count:6;
+}
+
+.ex3 ul li a{
+text-decoration:none;
+padding:3px;
+display:block;
+font-size:14px;
+color:#85D6FF;
+font-family:'Frank Ruhl Libre', sans-serif;
+}
+
+
+  #bold a{
+font-size:18px;
+}
+
+#visibility a{
+visibility:hidden;
+}
+
+#foot1{
+color:white;
+font-size:22px;
+position:absolute;
+top:300px;
+left:65px;
+}
+
+#foot2{
+color:white;
+font-size:15px;
+position:absolute;
+top:325px;
+left:65px;
+}
+
+#social1{
+position:absolute;
+top:325px;
+right:70px;
+}
+
+
+
+
+@media screen and (max-width:480px){
+  .container{
+    width:100%;
+	height:auto;
+	}
+	h1{display:none;}
+ .content{;width:100%;height:300px;}
+ .left {width:100%;height:300px;;background:white;float:left;position:relative;}
+ 
+ 
+ 
+ .middle {width:100%;height:300px;background:white; float:left; position:relative;}
+ .right {width:100%;height:300px;;background:white;float:left;position:relative;}
+ .left{
+  
+	font-size:15px;
+	}
+ .left h2{font-size:15px;position:}	
+ .middle{
+    width:
+	font-size:15px;}
+ .middle h2{font-size:15px;position:}
+  .right{
+    width:
+	font-size:15px;}
+  .right h2{font-size:15px;position:}
+  .leftln{display:none;}
+  .rightln{display:none;}
+  .leftln1{display:none;}
+  .rightln1{display:none;}
+  .left p{position:absolute;top:;font-size:12px;}
+  .middle p{position:absolute;top:;font-size:12px;}
+  .right p{position:absolute;top:px;font-size:12px;}
+  .middle h3{position:absolute;top:-250px;left:15px;font-family: 'Passion One', cursive;font-size:15px;}
+  
+  .banner img{width:100%;}
+  
+.box{width:80px;
+min-height:15px;
+background:#FF7000;
+position:absolute;
+left:5px;
+font size:12px;
+top:10px;
+color:white;
+text-align:center;
+line-height:15px;
+border-radius:3px;
+cursor:pointer;
+box-shadow:0 0 2px rgba(0,0,0,.5);
+1px 1px 5px rgba(0,0,0,.3);
+-moz-transition: all .1s linear .1s;
+-webkit-transition: all .1s linear .1s;
+font-family:'Frank Ruhl Libre', sans-serif;
+ }
+.menu ul li{float:none;border-bottom:1px solid #D8D8D8;border-right:none;width:122px;}
+.menu ul li a{font-size:9px;}
+.menu ul li:last-child{border-bottom:none;}
+.menu ul li ul li{display:}
+.menu ul li ul {margin-left:122px;top:0;}
+.menu ul li ul li {background: #FC6300;float:none;-moz-transition: all .1s linear 0s; border-bottom: 1px solid #FFFFFF;-webkit-transition:all .1s linear 0s;border-right: none;}
+.menu ul li ul li:hover{width:124px;}
+
+.section {width:100%;}
+.left1{width:100%;}
+.left1 h2{font-size:12px;}
+
+
+.middle11{width:100%;}
+.middle11 h2{font-size:12px;}
+
+
+.middle12{width:100%;}
+.middle12 h2{font-size:12px;}
+
+.right1{width:100%;}
+.right1 h2{font-size:12px;}
+
+
+.box1{width:70px;
+height:20px;
+background:#FF7000;
+opacity:0.;
+border-radius:2px;
+cursor:pointer;
+position:absolute;
+left:0px;
+top:0px;
+bottom:px;
+-moz-transition: all .1s linear .1s;
+-webkit-transition: all .1s linear .1s;
+}
+.section .box1 h2{
+position:absolute;top:2px;
+font-size:10px;
+left:3px;
+}
+form{position:absolute;top:300px;left:25px;}
+#search{
+ width:200px;
+ padding:5px;
+ border:1px solid #333;
+ font-size:12px;
+ }
+ 
+ #submit{
+ padding:5px;
+ background:#003366;
+ border:1px solid #333;
+ margin-left:-1px;
+ color:white;
+ cursor:pointer;
+ font-size:12px;}
+ 
+ #submit:hover{
+ background:#364949;
+ font-size:18px;
+ transition:all .1s linear 0.1s;
+ }
+ .section1{display:none;}
+ .section1 h2{font-size:px;}
+ 
+ .section2{
+ display:none;
+}
+.first{width:auto;float:none;magin-right:0;}
+.second{width:auto;float:none;magin-right:0;}
+.third{width:auto;float:none;magin-right:0;}
+.fourth{width:auto;float:none;magin-right:0;}
+.box2{}
+.box2 h5{display:}
+.box3{}
+.box3 h5{diplay:}
+.box4{}
+.box4 h5{display:}
+.box5{}
+.box5 h5{display:}
+.img2{max-width:100%;height:auto;}
+.img3{max-width:100%;height:auto;}
+.img4{max-width:100%;height:auto;}
+.img5{max-width:100%;height:auto;}
+
+.section4{width:100%;}
+
+.section4 h2{font-size:12px;}
+.section5{width:100%;}
+.map{width:100%;}
+
+.section6{display:none;}
+.well2{width:100%;}
+.well3{width:100%;}
+.well4{width:100%;}
+.video1 .video2 .video3{width:25px; height:25px;}
+
+.section7{
+width:100%;
+position:relative;
+height:auto;}
+
+.well5{width:40%;margin:none;position:absolute;left:10px;top:25px;height:auto;}
+ 
+ .ex1 ul li a{
+text-decoration:none;
+padding:2px;
+font-size:10px;
+display:block;
+color:#002E75;
+font-family:'Frank Ruhl Libre', sans-serif;
+ font-weight: bold;
+ float:none;
+}
+ 
+.ex1{
+padding-top:1px;
+padding-left:1px;}
+
+.ex1 ul{
+list-style:none;
+column-count:1;
+}
+
+.well6{
+width:35%;
+position:absolute;
+top:75px;
+left:190px;
+top:40px;
+height:auto;}
+
+.ex2 ul li a{
+text-decoration:none;
+padding:px;
+font-size:9px;
+color:#002E75;
+font-family:'Frank Ruhl Libre', sans-serif;
+ font-weight: bold;
+}
+
+.ex2{
+padding-top:1px;
+padding-left:1px;
+}
+
+.section7 h2 {
+font-size:12px; top:10px;}
+
+
+.section7 h3 {
+font-size:12px; top:10px;position:absolute;left:190px;
+}
+
+.footer{width:100%;height:auto;}
+
+.ex3 ul li a{
+text-decoration:none;
+padding:3px;
+display:block;
+font-size:12px;
+color:#85D6FF;
+font-family:'Frank Ruhl Libre', sans-serif;
+}
+
+  #bold a{
+font-size:12px;
+}
+
+.ex3{
+padding-top:10px;
+padding-left:10px;}
+
+.ex3 ul{
+list-style:none;
+column-count:1;
+}
+
+#foot1{
+display:none;
+}
+
+#foot2{
+display:none;
+}
+}
+
+menu ul li{
+float:none;
+width:100%;
+}
+
+menu ul li a{
+width:100%;
+}
+}
+
+.fixed{
+ position:fixed;
+ top:0;
+ width:100%;
+ background-color:#0F176E;
+ border-radius:10px;
+ color:white;}
+ 
+.menu-placeholder{
+ 0 0 40px 0;}
+ 
+.video1 .video2.video3 p{font-size:10px;}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+ <div class="header">
+ <div class="talkt">
+ <img src= "https://www.talklocal.com/images/new/logoNewBlue.png" alt="Mountain View" style="width:px;height:30px">
+ </div>
+ 
+  <div id ="social">
+   <div class="logoa"><img src= "https://image.freepik.com/free-icon/facebook-letter-logo_318-40258.png" alt="Mountain View" style="width:30px;height:25px;"></div>
+   <div class="logob"><img src= "https://image.freepik.com/free-icon/twitter-logo-shape_318-55611.png" alt="Mountain View" style="width:30px;height:25px;"></div>
+   <div class="logoc"><img src= "http://static.wixstatic.com/media/2a1a77_1a85c54cacbb47a6b867088659ef562c.jpg" alt="Mountain View" style="width:30px;height:31px;"></div>
+  </div>
+</div>
+
+
+
+
+ <div class="banner">
+ 
+ <div class="menu">
+  <ul>
+  <li><a href="#home">Tax Prepartion</a>
+  <ul>
+    <li><a href="#contact">Bnkrupty Consultation</a></li>
+    <li><a href="#about">Chapter 7</a></li>
+    <li><a href="#contact">Chpter 13</a></li>
+    <li><a href="#about">Other</a></li>
+  </li>
+  </ul>
+  <li><a href="#news">Lawyers-Traffic</a>
+   <ul> 
+    <li><a href="#contact">Replace Heating</a></li>
+    <li><a href="#about">Replace A/C System</a></li>
+    <li><a href="#contact">Replace A/C or hiring</a></li>
+    <li><a href="#about">Other</a></li>
+  </ul>
+  </li>
+  <li><a href="#contact">Rent Office Furniture</a>
+    <ul>
+    <li><a href="#contact">Bnkrupty Consultation</a></li>
+    <li><a href="#about">Chapter 7</a></li>
+    <li><a href="#contact">Chpter 13</a></li>
+    <li><a href="#about">Other</a></li>
+     </ul>
+	 </li>
+  <li><a href="#about">Lawers-Bankruptcy</a>
+  <ul>
+    <li><a href="#contact">Bnkrupty Consultation</a></li>
+    <li><a href="#about">Chapter 7</a></li>
+    <li><a href="#contact">Chpter 13</a></li>
+    <li><a href="#about">Other</a></li>
+     </ul>
+  </li>
+  <li><a href="#about">Auto Glass Repair</a>
+  <ul>
+    <li><a href="#contact">Bnkrupty Consultation</a></li>
+    <li><a href="#about">Chapter 7</a></li>
+    <li><a href="#contact">Chpter 13</a></li>
+    <li><a href="#about">Other</a></li>
+    </ul>
+	</li>
+  <li><a href="#about">Window Replacement</a>
+  <ul>
+    <li><a href="#contact">Bnkrupty Consultation</a></li>
+    <li><a href="#about">Chapter 7</a></li>
+    <li><a href="#contact">Chpter 13</a></li>
+    <li><a href="#about">Other</a></li>
+   </ul></li>
+</ul>
+</div>
+
+ <h1>talk to high quality local <br> professionals in minutes </h1>
+  <form> 
+ <input type="text" placeholder="Search service and catagories"
+ maxlength-"20" id="search">
+ <input type="submit" value="Go!" id="submit">
+ </form>
+<img src="https://mypreferences.homedepot.com/ipc/web/img/homeDepot_Background_image3.jpg"style="width:100%;height:400px">
+ 
+ </div>
+
+<hr/>
+
+<div class="content">
+
+
+ 
+  
+ <div class="left">
+    
+     <h2>Tell us What and Where</h2>
+	 
+   <p>Enter a service description along with your name, location, and phone number.</p> 
+   
+    
+ </div>
+  <div class="middle">
+     <h3>Connect Instantly.<h3>
+	  
+    
+     <h2>Relax, we'll make the calls</h2>
+	<p>We use ratings, reviews, call analytics, and social data to find the best pros.</p>
+	
+  </div>
+  <div class ="right">
+   
+     <h2>Talk directly to Professionals</h2>
+	 
+   <p>In minutes we will connect you with up to three professionals.</p>
+   
+    </div>
+	 <div class="box"> <h3>Request Service<h3>
+     </div>
+	 <hr class="rightln"/>
+	 <hr class="leftln"/>
+	 <hr class="rightln1"/>
+	 <hr class="leftln1"/>
+	 
+	 
+</div>
+<hr/>
+  
+    <div class="section">
+    
+  <div class="left1">
+  <h2>Control Your AD <br>Dollars<h2>
+  </div>
+  <div class="middle11">
+  <h2>Pick Your <br>Customers<h2>
+  </div>
+    
+  <div class="middle12">
+  <h2>Control <br>Request Alerts<h2>
+  </div>
+  <div class="right1">
+  <h2>Pay Per<br> Conversation<h2>
+  </div>
+   <div class="box1"><h2>Join Now!</h2>
+   </div>
+  </div>
+  <hr/> <hr/> 
+    <div class="section1">
+	<h2>Popular Catagories</h2>
+	</div>
+	<hr/>
+   <div class="section2">
+   
+    <div class="first">
+     
+     <div class="box2">
+	 <h5>talk to high quality local</h5>
+     </div>
+    <img src="http://ctb.ku.edu/sites/default/files/libraryoftools_slide_0.png" alt="Mountain View"style="width:296px;height:148px" class="img2">
+   </div>
+   <div class="second">
+      
+     <div class="box3">
+	 <h5>talk to high quality local</h5>
+     </div>
+     <img src="http://www.artisanalley.com/wp-content/uploads/Recruiting_Tools-_10_Candidate_Sourcing_Tools_You_May_Not_be_Using.jpg" alt="Mountain View"style="width:296px;height:148px" class="img3">
+   </div>
+   <div class="third">
+     
+     <div class="box4">
+	 <h5>talk to high quality local</h5>
+     </div>
+     <img src="http://marketingland.com/wp-content/ml-loads/2014/12/seo-social-media-marketing-analytics-tools.jpg" alt="Mountain View"style="width:296px;height:148px" class="img4">
+   </div>
+   <div class="fourth">
+      
+     <div class="box5">
+	 <h5>talk to high quality local</h5>
+     </div>
+     <img src="http://searchengineland.com/figz/wp-content/seloads/2014/08/tools-toolbox-bw-ss-1920.jpg" alt="Mountain View"style="width:296px;height:148px" class="img5">
+   </div>
+   </div>
+   
+  
+
+<hr/>
+<div class="section4">
+<h2>Some Of Our Recent Requests</h2>
+</div>
+<hr/>
+<div class="section5">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6202.164962254619!2d-76.93494856746567!3d38.990613879556314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6a5ed314561%3A0xbf0274f58882080d!2s4809+Berwyn+House+Rd%2C+College+Park%2C+MD+20740!5e0!3m2!1sen!2sus!4v1474558678729"  width="1200px" height="400" frameborder="0" style="border:0" allowfullscreen class="map"/></iframe>
+</div>
+<hr/>
+
+
+<div class="section6">
+ <h2>Media</h2>
+
+  <div class= "well2">
+  <div class="video1">
+  <iframe src="https://player.vimeo.com/video/102679774" width="270" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  </div>
+ <div class="well3">
+ <div class="video2">
+ <iframe src="https://player.vimeo.com/video/102680119" width="270" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+ </div>
+ </div>
+ <div class="well4">
+ <div class="video3">
+ <iframe src="https://player.vimeo.com/video/102777600" width="270" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+ </div>
+</div>
+</div>
+
+<div class="section7">
+
+<div class="well5">
+<div class="ex1">
+<ul>
+  <li><a href="#home">Washington, District Of Columbia (DC)</a></li>
+  <li><a href="#news">Philadelphia, Pennsylvania (PA)</a></li>
+  <li><a href="#contact">Alexandria, Virginia (VA)</a></li>
+  <li><a href="#about">New York, New York (NY)</a></li>
+  <li><a href="#contact">Silver Spring, Maryland (MD)</a></li>
+  <li><a href="#about">Jersey City, New Jersey (NJ)</a></li>
+  <li><a href="#contact">Boston, Massachusetts (MA)</a></li>
+  <li><a href="#about">Denver, Colorado (CO)</a></li>
+  <li><a href="#contact">Sarasota, Florida (FL)</a></li>
+  <li><a href="#contact">Houston, Texas (TX)</a></li>
+  <li><a href="#contact">San Francisco, California (CA)</a></li>
+  <li><a href="#contact">Dallas, Texas (TX)</a></li>
+</ul>
+</div>
+</div>
+ <div class="well6">
+ <div class="ex2">
+ <ul><li><a href="#home">Heating & Cooling Technicians in Washington, DC</a></li>
+  <li><a href="#news">Handymen in Boston, MA</a></li>
+  <li><a href="#contact">Roofing Contractors in Atlanta, GA</a></li>
+  <li><a href="#about">Heating & Cooling Technicians in Denver, CO</a></li>
+  <li><a href="#contact">Painters in Silver Spring, MD</a></li>
+  <li><a href="#about">Heating & Cooling Technicians in Sarasota, FL</a></li>
+  <li><a href="#contact">Plumbers in Jersey City, NJ</a></li>
+  <li><a href="#about">Heating & Cooling Technicians in Brooklyn, NY</a></li>
+  </ul>
+ </div>
+</div>
+<h2>Check out our Top Cities<h2>
+<h3>A few of our Popular Searches<h3>
+</div>
+
+
+<div class="footer">
+  <div class="ex3">
+  <ul><li id="bold"><a href="#home">CONSUMERS</a></li>
+  <li><a href="#news">How it works </a></li>
+  <li><a href="#contact">Tips & Tricks</a></li>
+  <li><a href="#about">FAQ</a></li>
+  <li><a href="#contact">Service Dictionary</a></li>
+  <li id="visibility"><a href="#contact">mmm</a></li>
+  
+  <li id="bold"><a href="#home">COMPANIES</a></li>
+  <li><a href="#news">Learn More </a></li>
+  <li><a href="#contact">Why Join?</a></li>
+  <li><a href="#about">Login</a></li>
+  <li><a href="#about">FAQ</a></li>
+  <li><a href="#contact">Register</a></li>
+
+  <li id="bold"><a href="#home">ABOUT US</a></li>
+  <li><a href="#news">Our Story</a></li>
+  <li><a href="#news">Press Room</a></li>
+  <li><a href="#contact">Careers</a></li>
+  <li><a href="#about">Service blog</a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+  
+  
+  <li id="bold"><a href="#home">HELP</a></li>
+  <li><a href="#news">Contact Us </a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+ 
+ 
+  <li id="bold"><a href="#home">SOCIAL</a></li>
+  <li><a href="#news">Follow Us</a></li>
+  <li><a href="#contact">Facebook</a></li>
+  <li><a href="#about">Linkdin</a></li>
+  <li><a href="#contact">Twitter</a></li>
+  <li><a href="#contact">Youtube</a></li>
+  
+  <li id="bold"><a href="#home">LEGAL</a></li>
+  <li><a href="#news">Privacy Policy </a></li>
+  <li><a href="#contact">Trademarks</a></li>
+  <li><a href="#about">Tarms Of Use</a></li>
+  <li id="visibility"><a href="#contact">mm</a></li>
+  <li id="visibility"><a href="#contact">mmm</a></li>
+ 
+  </div>
+  
+  <div id="foot1">
+   3,319,879 calls placed.
+  </div>
+   <div id="foot2">2016 Seva Search, Inc. All Rights Reserved.
+  </div>
+  
+   <div id ="social1">
+  <img src= "http://www.herzliya.muni.il/_Uploads/Icon/FACEBOOK(6).jpg" alt="Mountain View" style="width:30px;height:25px;">
+  <img src= "http://www.cobb-vantress.com/img/home/social/linkdin_logo.png" alt="Mountain View" style="width:30px;height:25px;">
+  <img src= "http://www.naracoorteseeds.com.au/media/Twitter_svg.png" alt="Mountain View" style="width:30px;height:25px;">
+  <img src= "http://i.amz.mshcdn.com/rYYSJgCUEPgFtAsR43uV0Kx1h0s=/950x534/2013%2F08%2F29%2F86%2Fyoutubelogo.3ffc3.jpg" alt="Mountain View" style="width:30px;height:25px;">
+  </div>
+
+</body>
+
+<script>
+
+
+
+
+$(document).ready(function(){
+ $(".box2").hover(function(){
+ $(".box2 h5").toggle(250);})
+});
+
+
+$(document).ready(function(){
+ $(".box3").hover(function(){
+ $(".box3 h5").toggle(250);})
+});
+
+$(document).ready(function(){
+ $(".box4").hover(function(){
+ $(".box4 h5").toggle(250);})
+});
+$(document).ready(function(){
+ $(".box5").hover(function(){
+ $(".box5 h5").toggle(250);})
+});
+
+
+$(document).ready(function(){
+$ ("p").css ("opacity", 0);
+var navOffset = $("p").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$("p").animate({"opacity":1},3200);}
+ });
+});
+
+$(document).ready(function(){
+$ ("h2").css ("opacity", 0);
+var navOffset = $("h2").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$("h2").animate({"opacity":1},2700);}
+ });
+});
+
+
+$(document).ready(function(){
+$ (".middle h3").css ("opacity", 0);
+var navOffset = $(".middle h3").offset().top;
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+
+
+$(window).scroll(function(){
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".middle h3").animate({"opacity":1},3200);}
+ });
+});
+
+$(document).ready(function(){
+$ (".rightln").css ("opacity", 0);
+var navOffset = $(".rightln").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".rightln").animate({"opacity":1},3200);}
+ });
+});
+
+
+$(document).ready(function(){
+$ (".leftln").css ("opacity", 0);
+var navOffset = $(".leftln").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".leftln").animate({"opacity":1},3200);}
+ });
+});
+
+$(document).ready(function(){
+var navOffset = $("h1").offset().top;
+
+$(window).scroll(function() {
+var windowHeight = $(window).height();
+var scrollPos = $(window).scrollTop();
+var scrollPosBottom = windowHeight+scrollPos;
+  if (scrollPosBottom >= navOffset) {
+    $("h1").animate({top:190}, 1500);
+  }
+});
+})
+
+
+
+$(document).ready(function(){
+$ (".leftln1").css ("opacity", 0);
+var navOffset = $(".leftln1").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".leftln1").animate({"opacity":1},3200);}
+ });
+});
+
+$(document).ready(function(){
+$ (".rightln1").css ("opacity", 0);
+var navOffset = $(".rightln1").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".rightln1").animate({"opacity":1},3200);}
+ });
+});
+
+$(document).ready(function(){
+$ (".left1 h2").css ("opacity", 0);
+var navOffset = $(".left1 h2").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".left1 h2").animate({"opacity":1},4600);
+ }
+ });
+});
+
+$(document).ready(function(){
+$ (".middle11 h2").css ("opacity", 0);
+var navOffset = $(".middle11 h2").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".middle11 h2").animate({"opacity":1},4600);
+ }
+ });
+});
+
+
+$(document).ready(function(){
+$ (".middle12 h2").css ("opacity", 0);
+var navOffset = $(".middle12 h2").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".middle12 h2").animate({"opacity":1},4600);
+ }
+ });
+});
+
+$(document).ready(function(){
+$ (".right1 h2").css ("opacity", 0);
+var navOffset = $(".right1 h2").offset().top;
+
+$(window).scroll(function(){
+  var windowHeight = $(window).height();
+ var scrollPos = $(window).scrollTop();
+ var scrollPosBottom = windowHeight+scrollPos;
+ if( scrollPosBottom >= navOffset){$(".right1 h2").animate({"opacity":1},4600);
+ }
+ });
+});
+</script>
+</html>
